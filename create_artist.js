@@ -7,9 +7,10 @@ const rl = readline.createInterface({
 
 rl.question('What is Artist name? ', (name) => {
   console.log(`Artist name is ${name}`);
+  
     db.Artist.create({artistName: `${name}`})
     .then(function(user){
-        console.log(user);
+        console.log('Successfull');
     });
     rl.close();
 });
