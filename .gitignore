@@ -1,2 +1,2 @@
-node_modules
-seeders
+/node_modules
+/seeders
