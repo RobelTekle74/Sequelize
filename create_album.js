@@ -4,8 +4,9 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
+//prompts the user to input the information needed.
 rl.question('What is Album name? ', (name) => {
+  // spits out the inputed info as an output.
   console.log(`Album name is ${name}`);
     rl.question('What is Album year? ', (year) => {
       console.log(`Album year is ${year}`);
